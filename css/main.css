@@ -261,6 +261,20 @@ textarea {
   }
 }
 
+
+
+/*Manages the scroll snap - commenting out for testing
+
+.scroll-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+*/
+
+/*commenting out for testing
+
 .container {
   display: flex;
   flex-direction: column;
@@ -271,18 +285,28 @@ textarea {
   margin: 0;
 }
 
-.scroll-container {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
-}
-
 .section {
   scroll-snap-align: start;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+
+ */
+
+
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  scroll-snap-align: start;
 }
 
 #herotitle {
@@ -302,6 +326,43 @@ textarea {
   font-family: 'Lilita One', sans-serif;
 }
 
+.who-we-are {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  scroll-snap-align: start;
+}
+
+.product-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  flex-wrap: wrap;
+  width 100%;
+}
+
+.product-box {
+  border: 2px solid ghostwhite;
+  padding: 10px;
+  margin: 10px;
+  flex-basis: 30%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  scroll-snap-align: start;
+}
+
 body {
   background-color: black;
 }
@@ -314,6 +375,7 @@ h1 {
 h2 {
   font-family: "lilita one", sans-serif;
   color: ghostwhite;
+  font-size: 100px;
 }
 
 h3 {
@@ -337,6 +399,11 @@ h6 {
 }
 
 p {
+  font-family: "jetbrains mono", monospace;
+  color: ghostwhite;
+}
+
+li {
   font-family: "jetbrains mono", monospace;
   color: ghostwhite;
 }
@@ -373,5 +440,10 @@ a {
   background-color: ghostwhite;
   color: ghostwhite;
 }
+
+
+
+
+
 
 
