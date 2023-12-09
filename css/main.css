@@ -263,7 +263,7 @@ textarea {
 
 
 
-/*Manages the scroll snap - commenting out for testing
+/*Manages the scroll snap - commenting out for testing */
 
 .scroll-container {
   scroll-snap-type: y mandatory;
@@ -271,7 +271,7 @@ textarea {
   height: 100vh;
 }
 
-*/
+
 
 /*commenting out for testing
 
@@ -295,8 +295,6 @@ textarea {
 
 
  */
-
-
 
 .title {
   display: flex;
@@ -342,7 +340,9 @@ textarea {
   justify-content: space-evenly;
   align-items: start;
   flex-wrap: wrap;
-  width 100%;
+  width 100%
+  scroll-snap-align: start;
+  height: 100vh;
 }
 
 .product-box {
@@ -350,6 +350,7 @@ textarea {
   padding: 10px;
   margin: 10px;
   flex-basis: 30%;
+  scroll-snap-align: start;
 }
 
 .footer {
@@ -361,6 +362,7 @@ textarea {
   padding: 0;
   margin: 0;
   scroll-snap-align: start;
+  height: 100vh;
 }
 
 body {
